@@ -15,6 +15,13 @@
       "when": 1734277187918,
       "tag": "0001_organic_silver_centurion",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1734460106600,
+      "tag": "0002_friendly_senator_kelly",
+      "breakpoints": true
     }
   ]
 }
