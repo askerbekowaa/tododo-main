@@ -4,5 +4,6 @@ export const todo = pgTable("todo", {
   id: integer("id").primaryKey(),
   text: text("text").notNull(),
   completed: boolean("completed").default(false).notNull(),
-  user: text("user").notNull().default(user.email.com),
+  user: text("user").notNull().default("default_user_email"),
+и
 });
